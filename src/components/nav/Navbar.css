@@ -1,0 +1,46 @@
+/* CSS Variables */
+:root {
+	--systemGray: rgb(28, 28, 30);
+	--lightSystemBlue: rgb(0, 122, 255);
+	--darkSystemBlue: rgb(10, 132, 255);
+	--lightSystemGreen: rgb(52, 199, 89);
+	--darkSystemGreen: rgb(48, 209, 88);
+	--textColor: white;
+}
+
+#nav-bar {
+	/* background-color: var(--systemGray); */
+	background-color: white;
+	color: black;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#title {
+	margin-top: 14px;
+	margin-bottom: 20px;
+}
+
+#toolbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 75%;
+	margin-bottom: 20px;
+}
+
+#non-linear-slider {
+	padding: 7px !important;
+}
+
+.separator {
+	width: 3px;
+	height: auto;
+	background-color: gray;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: inline-block;
+}

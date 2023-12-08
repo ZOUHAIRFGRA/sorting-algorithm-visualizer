@@ -1,0 +1,13 @@
+/* CSS Variables */
+:root {
+	--darkSystemGray: rgb(28, 28, 30);
+	--lightSystemBlue: rgb(0, 122, 255);
+	--darkSystemBlue: rgb(10, 132, 255);
+	--lightSystemGreen: rgb(52, 199, 89);
+	--darkSystemGreen: rgb(48, 209, 88);
+	--textColor: white;
+}
+
+.bar {
+	margin-right: 4px;
+}
